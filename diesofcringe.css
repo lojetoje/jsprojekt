@@ -1,0 +1,62 @@
+/* Stilmall för sidan */
+
+
+h1 {
+    font-size: 24px;
+}
+
+img { width: 500px; height: 200px;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.topdiv,
+.bottom-div {
+    height: 100px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.topdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlediv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+button {
+    width:150px;
+    height: 150px;
+    background-color: purple;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 30px;
+}
+.button:hover {
+    background-color: green;
+  }
